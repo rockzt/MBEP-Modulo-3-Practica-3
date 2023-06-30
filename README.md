@@ -1,10 +1,10 @@
 # MBEP-Modulo-3-Practica-3
+
 ---
 
 ### Prácticas Bucles, Iteradores
 
 1. Escribe una función qué reciba varios números y devuelva el mayor de ellos.
-
 
 2. Escribe una función que permita multiplicar varios números
 
@@ -23,7 +23,7 @@ $ 1
 1
 $ +2
 3
-$ *4
+$ \*4
 12
 $ /2
 6
