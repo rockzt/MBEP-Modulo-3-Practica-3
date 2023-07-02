@@ -1,4 +1,5 @@
 # MBEP-Modulo-3-Practica-3
+
 ---
 
 ### Prácticas Bucles, Iteradores
@@ -22,7 +23,7 @@ $ 1
 1
 $ +2
 3
-$ *4
+$ \*4
 12
 $ /2
 6
