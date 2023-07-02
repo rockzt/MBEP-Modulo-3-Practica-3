@@ -5,7 +5,6 @@
 
 1. Escribe una función qué reciba varios números y devuelva el mayor de ellos.
 
-
 2. Escribe una función que permita multiplicar varios números
 
 3. Escribe una función para verificar que un número se encuentra en un rango de números determinado. El resultado de esa función debe ser booleano
