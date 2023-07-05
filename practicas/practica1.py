@@ -1,10 +1,8 @@
 '''
 Escribe una función qué reciba varios números y devuelva el mayor de ellos.
 '''
-def MaxNum(numberList: list):
-  print(type(numberList))
-  maxNum = max(numberList)
-  return f'Número mayor -> {maxNum}'
+def get_max_number(*args):
+  return f'Número mayor -> {max(args)}'
 
 # Testing Function
-print(MaxNum([150, 253, 569628, 0, 6, 10000000000, 20365985]))
+print(get_max_number(10,250,300,4000000,50))

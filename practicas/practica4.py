@@ -11,6 +11,7 @@ def checkPrimeNumber(num):
 
 #Testing Function
 print(checkPrimeNumber(10))
+print(checkPrimeNumber(9))
 print(checkPrimeNumber(100))
 print(checkPrimeNumber(50))
 print(checkPrimeNumber(7))

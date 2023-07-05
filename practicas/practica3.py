@@ -1,16 +1,9 @@
 '''
 Escribe una función para verificar que un número se encuentra en un rango de números determinado. El resultado de esa función debe ser booleano
 '''
-def checkNumberRange(number):
-
-  if number in range(1, 1000):
-    return True
-  else:
-    return False
+def checkNumberRange(min_number, max_number, number):
+    return number in range(min_number, max_number)
 
 # Testing Function
-print(checkNumberRange(999))
-print(checkNumberRange(1))
-print(checkNumberRange(343))
-print(checkNumberRange(1000))
-print(checkNumberRange(0))
+print(checkNumberRange(1,10,5))
+print(checkNumberRange(1,10,20))

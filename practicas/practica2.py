@@ -2,12 +2,12 @@
 Escribe una función que permita multiplicar varios números
 '''
 
-def muitiplyNumbers(numbers: list):
+def muitiplyNumbers(*args):
   result = 1
-  for n in numbers:
-      result = result * n
+  for n in args:
+      result *=  n
 
-  return f"Reslultado de multiplicar -> {numbers} - {result}"
+  return f"Reslultado de multiplicar -> {args} - {result}"
 
 # Testing Function
-print(muitiplyNumbers([1, 5, 1]))
+print(muitiplyNumbers(1,5,1))
